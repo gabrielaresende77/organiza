@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GerenciadorTarefas" default="default" basedir=".">
+    <description>Compila e executa o Organiza no NetBeans.</description>
+    <import file="nbproject/build-impl.xml"/>
+    <!-- Testes simples com main, sem dependência de JUnit. -->
+    <target name="verificar-regras" depends="compile-test">
+        <java classname="tarefas.TesteAgenda" fork="true" failonerror="true">
+            <classpath path="${run.test.classpath}"/>
+        </java>
+    </target>
+</project>
