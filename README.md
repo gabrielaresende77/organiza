@@ -1,6 +1,6 @@
 # Organiza — Gerenciador de Tarefas
 
-Projeto da disciplina de Programação I — Sistemas de Informação, UEMG.
+Projeto da disciplina de Programação I — Sistemas de Informação.
 
 ## Objetivo
 
